@@ -146,3 +146,11 @@ button {
 .hero-banner button.alt-color {
   background-color: #ff9545;
 }
+
+/* ============================================================
+  Universal Styles
+============================================================ */
+.padding-top-40 { padding-top: 40px; }
+.padding-bottom-40 { padding-bottom: 40px; }
+
+.text-bold { font-weight: bold; }
