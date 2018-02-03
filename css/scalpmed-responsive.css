@@ -1,0 +1,23 @@
+@media handheld, only screen and (max-width: 991px) {
+  .navbar-brand {
+    width: 140px;
+  }
+  #scalp-nav .navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media handheld, only screen and (max-width: 767px) {
+  #scalp-nav .navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+@media handheld, only screen and (max-width: 499px) {
+  #scalp-topnav a {
+    margin-left: 20px;
+    font-size: .8em;
+  }
+}
