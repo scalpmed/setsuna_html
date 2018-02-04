@@ -67,10 +67,10 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <style>.hp-men-logo { padding: 20px 40px 20px 40px; }</style>
-          <img src="./img/logo-gq.jpg" class="hp-men-logo" alt="" /> 
-          <img src="./img/logo-complex.jpg" class="hp-men-logo" alt="" /> 
-          <img src="./img/logo-fast.jpg" class="hp-men-logo" alt="" /> 
-          <img src="./img/logo-t.jpg" class="hp-men-logo" alt="" /> 
+          <img src="./img/logo-gq.jpg" class="hp-men-logo" alt="" />
+          <img src="./img/logo-complex.jpg" class="hp-men-logo" alt="" />
+          <img src="./img/logo-fast.jpg" class="hp-men-logo" alt="" />
+          <img src="./img/logo-t.jpg" class="hp-men-logo" alt="" />
           <img src="./img/logo-wwd.jpg" class="hp-men-logo" alt="" />
         </div><!-- /col -->
       </div><!-- /row -->
@@ -83,13 +83,13 @@
       <div class="col-lg-12">
         <style>.getroot-percent { color: #00BED9; font-weight: bold; font-size: 3em; }</style>
         <h2 class="text-center padding-top-40">GET TO THE ROOT</h2>
-        
+
         <div class="row padding-top-40">
           <div class="col-lg-4">
             <h3 class="text-center getroot-percent">95%</h3>
             <p class="text-center">Saw remarkable results in just 6 months.</p>
           </div>
-          
+
           <div class="col-lg-4">
             <h3 class="text-center getroot-percent" style="color: #00BED9;">95%</h3>
             <p class="text-center">Saw remarkable results in just 6 months.</p>
@@ -105,14 +105,49 @@
   </section>
 
   <!-- Get To The Root -->
-  <section class="padding-bottom-40" style="background-color: #F2F2F2;">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h2 class="text-center padding-top-40">BG VIDEO &amp; STUFF GOES HERE</h2>
-        </div><!-- /col -->
-      </div><!-- /row -->
-    </div>
+  <section id="bgvideo" class="padding-bottom-40">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <!-- <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          </div> -->
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" id="modalClose"><span aria-hidden="true">×</span></button>
+            <video src="videos/SM_YouTube_Rod Fuller_01.mp4" controls id="playableVideo">
+
+            </video>
+          </div>
+          <!-- <div class="modal-footer">
+
+          </div> -->
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    <div class="video-container">
+      <video src="videos/SM_YouTube_Rod Fuller_01.mp4" autoplay muted loop>
+
+      </video>
+       <div class="overlay-desc">
+         <div class="container">
+           <div class="row">
+             <div class="col-xs-12">
+               <h1>A Pretty Title</h1>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-12 text-center">
+               <p>Some Body Text</p>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-xs-12 text-center">
+               <button type="button" name="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Play</button>
+             </div>
+           </div>
+         </div><!-- /.container -->
+       </div><!-- /.overlay-desc -->
+  	</div><!-- /.video-container -->
   </section>
 
   <!-- Real People. Real Results. -->
@@ -120,7 +155,7 @@
     <div class="row">
       <div class="col-lg-12">
         <h2 class="text-center padding-top-40">REAL PEOPLE. REAL RESULTS.</h2>
-        
+
         <div class="row padding-top-40">
           <div class="col-lg-5">
             <img src="./img/men/homepage-realpeople-result.png" class="img-responsive" alt="Hair Growth" />
@@ -146,5 +181,7 @@
   <script src="./js/bootstrap.min.js"></script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="./js/ie10-viewport-bug-workaround.js"></script>
+  <!-- BGVIDEO -->
+  <script src="./js/bgvideo.js"></script>
 </body>
 </html>
