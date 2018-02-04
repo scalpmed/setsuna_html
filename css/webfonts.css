@@ -1,0 +1,49 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2015 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      S-Core
+ * License URL: http://www.fontspring.com/licenses/s-core/webfont
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'core_sans_nr_45_regularRg';
+    src: url('../fonts/CoreSansNR45-webfont.eot');
+    src: url('../fonts/CoreSansNR45-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CoreSansNR45-webfont.woff2') format('woff2'),
+         url('../fonts/CoreSansNR45-webfont.woff') format('woff'),
+         url('../fonts/CoreSansNR45-webfont.ttf') format('truetype'),
+         url('../fonts/CoreSansNR45-webfont.svg#core_sans_nr_45_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'core_sans_nr_65_boldregular';
+    src: url('../fonts/CoreSansNR65-webfont.eot');
+    src: url('../fonts/CoreSansNR65-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CoreSansNR65-webfont.woff2') format('woff2'),
+         url('../fonts/CoreSansNR65-webfont.woff') format('woff'),
+         url('../fonts/CoreSansNR65-webfont.ttf') format('truetype'),
+         url('../fonts/CoreSansNR65-webfont.svg#core_sans_nr_65_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
