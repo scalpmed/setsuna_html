@@ -36,7 +36,7 @@ body {
   min-height: 40px;
 }
 #scalp-topnav a {
-  color: #fff; 
+  color: #fff;
   display: inline-block;
   height: 40px;
   line-height: 40px;
@@ -151,6 +151,37 @@ button {
   Header
 ============================================================ */
 #navbar > ul > li { font-weight: bold; }
+
+/* ============================================================
+  BG Video
+============================================================ */
+section#bgvideo .video-container {
+  position: relative;
+}
+section#bgvideo video {
+  height: auto;
+  vertical-align: middle;
+  width: 100%;
+}
+section#bgvideo .overlay-desc {
+  background: rgba(0,0,0,0.65);
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section#bgvideo h1,p,button {
+  color: white;
+  text-align: center;
+}
+section#bgvideo #modalClose {
+  position: absolute;
+  color: #fff;
+  top: 15px;
+  right: 25px;
+  z-index: 10000;
+}
 
 /* ============================================================
   Universal Styles
