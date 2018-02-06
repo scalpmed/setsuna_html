@@ -1,3 +1,12 @@
+@media handheld, only screen and (max-width: 1280px) {
+  .hero-banner .bottles-holder {
+    bottom: 20px;
+  }
+
+  .hero-banner .bottles-holder img {
+    margin-bottom: 0px;
+  }
+}
 @media handheld, only screen and (max-width: 991px) {
   .navbar-brand {
     width: 140px;
@@ -6,6 +15,22 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .hero-banner .bottles-holder img {
+    margin-bottom: 0;
+  }
+  .col-md-6.full-height {
+    position: absolute;
+    width: 500px;
+    bottom: 0;
+    right: 20px;
+  }
+  .hero-banner .hero-main-txt {
+    color: #404144;
+    margin-top: 210px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 10px;
+}
 }
 
 @media handheld, only screen and (max-width: 767px) {
@@ -13,11 +38,44 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+  .col-md-6.full-height {
+    width: 400px;
+  }
+}
+@media handheld, only screen and (max-width: 600px) {
+  .hero-banner .hero-main-txt {
+    font-size: 8px;
+    line-height: 1.2
+  }
+  .cta-floater {
+    width: auto;
+    right: 0px;
+    left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .hero-banner .cta-floater .obtn {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 7px;
+  }
 }
 
 @media handheld, only screen and (max-width: 499px) {
   #scalp-topnav a {
     margin-left: 20px;
     font-size: .8em;
+  }
+}
+
+@media handheld, only screen and (max-width: 440px) {
+  .col-md-6.full-height {
+    width: 90%;
+  }
+  .hero-banner .bottles-holder {
+      bottom: 20px;
+      right: 0;
+      left: 0;
   }
 }

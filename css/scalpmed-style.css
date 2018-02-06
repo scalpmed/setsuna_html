@@ -108,16 +108,19 @@ button {
   top: 20px;
   right: 0px;
   padding: 40px 20px;
-  width: 500px;
+  width: 600px;
   background: url(../img/hero/floatyfade.png) 0 0 repeat-y;
   text-align: right;
+  z-index: 1020;
 }
 .hero-banner .bottles-holder {
   right: 30px;
-  bottom: 20px;
+  bottom: 10px;
   position: absolute;
 }
-
+.hero-banner .bottles-holder img {
+  margin-bottom: -50px;
+}
 .hero-banner .hero-main-txt {
   color: #404144;
   margin-top: 140px;
@@ -145,6 +148,40 @@ button {
 }
 .hero-banner button.alt-color {
   background-color: #ff9545;
+}
+.hero-banner .cta-floater .goldbadge {
+  vertical-align: top !important;
+  margin-right: 30px;
+}
+.hero-banner .cta-floater .obtn {
+  vertical-align: top;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.hero-banner .price-holder {
+  display: inline-block;
+  width: 160px;
+  color: #00BED9;
+  font-weight: bold;
+}
+.hero-banner .price-holder .line1 {
+    font-size: 22px;
+    text-align: left;
+    line-height: 1;
+    height: 22px;
+}
+.hero-banner .price-holder .line2 .a {
+  font-size: 40px;
+  margin-top: -10px;
+}
+.hero-banner .price-holder .line2 .b {
+  text-align: left;
+  font-size: 20px;
+  line-height: 1;
+}
+.hero-banner .price-holder .line3 {
+  text-align: center;
+  color: #000;
 }
 
 /* ============================================================
