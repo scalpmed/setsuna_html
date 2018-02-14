@@ -1,3 +1,8 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
 body {
   background: #fff url(./img/bg-pattern.gif) center top;
   background-size: auto;
@@ -12,6 +17,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 .bg-white {
   background-color: #fff;
 }
@@ -84,9 +91,9 @@ body {
 button {
     color: #fff;
     border: none;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
     outline: 0;
 }
 
@@ -125,6 +132,7 @@ button {
   color: #404144;
   margin-top: 140px;
   margin-left: 60px;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
 }
 
@@ -182,6 +190,20 @@ button {
 .hero-banner .price-holder .line3 {
   text-align: center;
   color: #000;
+}
+
+.getroot-percent {
+  color: #00BED9;
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.getroot-text {
+  font-size: 1.8em;
+}
+.getroot-text,
+.getroot-text p {
+  color: #000 !important;
 }
 
 /* ============================================================
@@ -258,3 +280,10 @@ section#bgvideo #modalClose {
 .padding-bottom-40 { padding-bottom: 40px; }
 
 .text-bold { font-weight: bold; }
+
+.give-border-right {
+  border-right: solid 1px #000;
+}
+.give-border-left {
+  border-left: solid 1px #000;
+}
