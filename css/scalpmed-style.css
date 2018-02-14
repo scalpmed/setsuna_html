@@ -67,8 +67,8 @@ body {
   box-shadow: 0 0 30px #ccc;
 }
 #scalp-nav .navbar-nav>li>a {
-  padding-top: 38px;
-  padding-bottom: 38px;
+  padding-top: 39px;
+  padding-bottom: 39px;
 }
 #scalp-nav .navbar-toggle {
   background-color: #404145;
@@ -210,6 +210,37 @@ button {
   Header
 ============================================================ */
 #navbar > ul > li { font-weight: bold; }
+
+#scalp-nav {
+  border: 0;
+}
+
+#scalp-nav ul ul {
+  border: 0;
+  background: rgba(255,255,255,.9);
+  padding-top: 8px;
+  z-index: 10000
+}
+
+#scalp-nav ul li span.caret {
+  content: '';
+  z-index: 10001;
+  position: absolute;
+  right: 50%;
+  margin-right: -8px;
+	width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-top: 8px solid #2f2f2f;
+	font-size: 0;
+	line-height: 0;
+  display: none;
+}
+
+#scalp-nav ul li.open span.caret {
+  display: inline-block;
+}
 
 /* ============================================================
   BG Video
