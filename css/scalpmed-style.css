@@ -12,6 +12,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 .bg-white {
   background-color: #fff;
 }
@@ -184,6 +186,20 @@ button {
   color: #000;
 }
 
+.getroot-percent {
+  color: #00BED9;
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+.getroot-text {
+  font-size: 1.8em;
+}
+.getroot-text,
+.getroot-text p {
+  color: #000 !important;
+}
+
 /* ============================================================
   Header
 ============================================================ */
@@ -227,3 +243,10 @@ section#bgvideo #modalClose {
 .padding-bottom-40 { padding-bottom: 40px; }
 
 .text-bold { font-weight: bold; }
+
+.give-border-right {
+  border-right: solid 1px #000;
+}
+.give-border-left {
+  border-left: solid 1px #000;
+}
