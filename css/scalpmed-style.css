@@ -249,6 +249,32 @@ button {
   color: #000 !important;
 }
 
+
+
+/* ============================================================
+  BOTTLE GRID
+============================================================ */
+.bottle-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr 1fr 2fr 1fr 2fr;
+}
+.bottle-grid .gridcol {
+  text-align: center;
+  position: relative;
+}
+.bottle-grid .gridcol:nth-child(even) .inner {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+.bottle-grid .glyphicon {
+  font-size: 50px;
+}
+.bottle-grid .desc {
+  font-size: 1.6em;
+}
+
+
 /* ============================================================
   Header
 ============================================================ */

@@ -73,6 +73,13 @@
   .col-md-6.full-height {
     width: 400px;
   }
+
+  .bottle-grid .desc {
+    font-size: 1em;
+  }
+  .bottle-grid .glyphicon {
+    font-size: 20px;
+  }
 }
 @media handheld, only screen and (max-width: 600px) {
   .hero-banner .hero-main-txt {
