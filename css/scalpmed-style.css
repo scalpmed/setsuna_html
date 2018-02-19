@@ -192,6 +192,49 @@ button {
   color: #000;
 }
 
+/* OVERRIDES FOR LOWER HERO BANNER  */
+.hero-banner.hero-lower  .img-responsive {
+  display: block;
+  width: auto;
+  max-width: auto !important;
+  max-height: 100%;
+}
+.hero-banner.hero-lower .bottles-holder {
+  right: auto;
+  bottom: 0px;
+  top: 0px;
+}
+.hero-banner.hero-lower .cta-floater {
+  top: auto;
+  bottom: 60px;
+}
+.hero-banner.hero-lower .hero-main-txt {
+  margin-top: 70px;
+  text-align: center;
+}
+.hero-banner.hero-lower .hero-main-txt .bot-line {
+  color: #00BED9;
+  font-weight: normal;
+}
+.hero-banner.hero-lower .price-holder .line1 {
+  font-size: 30px;
+  height: 30px;
+  margin-top: -16px;
+  margin-bottom: 16px;
+}
+.hero-banner.hero-lower .price-holder .line1 strike {
+  color: #f00;
+}
+.hero-banner.hero-lower .price-holder .line1 span {
+  color: #00BED9;
+  padding: 0 10px;
+}
+.hero-banner.hero-lower .inner-constrain {
+  max-width: 1500px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .getroot-percent {
   color: #00BED9;
   font-weight: bold;

@@ -30,7 +30,39 @@
     margin-left: 30px;
     font-weight: bold;
     font-size: 10px;
-}
+  }
+  .hero-banner.hero-lower {
+    height: auto;
+    padding-bottom: 300px;
+  }
+  .hero-banner.hero-lower .col-md-6 {
+    display: block;
+    width: auto !important;
+    float: none;
+    position: relative !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .hero-banner.hero-lower .bottles-holder {
+    position: relative;
+    top: auto;
+    bottom: auto;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .hero-banner.hero-lower .img-responsive {
+    max-height: none;
+    max-width: 100%;
+    width: 100%:
+  }
+  .hero-banner.hero-lower .cta-floater {
+    padding: 40px 20px;
+  }
+  .hero-banner .hero-main-txt {
+    margin-left: 0;
+  }
 }
 
 @media handheld, only screen and (max-width: 767px) {
